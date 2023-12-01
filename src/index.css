@@ -2,3 +2,46 @@ body {
     color: black;
     margin: 1em;
 }
+
+table,
+tr,
+th {
+    border: 1px solid black;
+}
+
+thead {
+    background-color: lightblue;
+}
+
+th {
+    padding: 1em;
+}
+
+.add-new-user {
+    margin-top: 1em;
+}
+
+.user-form {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+
+.user-input {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-submit-button {
+    margin-top: 10px;
+}
